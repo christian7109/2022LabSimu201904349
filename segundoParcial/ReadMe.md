@@ -51,20 +51,48 @@ estos tiene un comportamiento lineal y en base a la tabla de datos:
 	</tr>	</thead>
 </table>
 Por lo cual se necesito de:
-# Minimos cuadrados	
+
+### Minimos cuadrados	
 Es un procedimiento de análisis numérico en la que, dados un conjunto de datos pares ordenados y familia de funciones, se intenta determinar la función continua que mejor se aproxime a los datos, línea de regresión o la línea de mejor ajuste.
-En nuestro caso presentamos la recta 'y=mx+b' 
+En nuestro caso presentamos la recta y=mx+b, esto se logró teniendo las siguientes ecuaciones.
+ <p align="center">
+<img src="https://github.com/christian7109/2022LabSimu201904349/blob/main/segundoParcial/Imagenes/CodeCogsEqn.png" alt="Ecuación de Newton-Raphson" width="200"/>
+</p>
+ <p align="center">
+<img src="https://github.com/christian7109/2022LabSimu201904349/blob/main/segundoParcial/Imagenes/CodeCogsEqn%20(3).png" alt="Ecuación de Newton-Raphson" width="200"/>
+</p>
+
+
 ## Abstracción del problema
+Vemos que con la tabla dada guardada en el archivo "datos" podemos graficarlo, pero lo que hace caracteristico este problema es:
+### int main 
+En dicha función teniendo los vectores almacenados de x y y, se obtienen los siguientes valores guardados en as variables b, m y r, en este problema se omitió imprimir el coeficiente de correlación.	
+
+Parte del main se implemento para llamar un archivo en el cual se leyeron los datos, esto se logró implementando un puntero. (Queda a decisión del usuario implementarlo).	
+
+Y se da una instrucción para generar la gráfica.
+### float suma
+En esta función se realiza la suma de todas las entradas del vector.
+### sumaMulti
+En esta función se realiza la multiplicación de dos vectores que se ingresan.
 ## Pseudocódigo 
-Paso 1:
-Paso 2:
-Paso 3: 
-Paso 4:      
-Paso 5:
-Paso 6:  
-Paso 7:  
-Paso 8: 
+Paso 1: Declaramos los vectores globales y prototipar
+
+Paso 2: Leer los datos del enunciado y mostrarlos	
+
+Paso 3: Realizar las sumatorias necesarias y los productos de las sumatorias y encontrar la recta y=mx+b
+
+Paso 4: Generar una gráfica sobre los datos tabulados			     
+
+Paso 5: Generar una gráfica con la pendiente obtenida por la fórmula encontrada en el paso 3			
 ## Respuesta
+	Se muestra la gráfica con valores tabulados y la recta que mejor aproxima el comportamiento.
+ <p align="center">
+<img src="https://github.com/christian7109/2022LabSimu201904349/blob/main/segundoParcial/Imagenes/Comportamientocombus.jpg" alt="Ecuación de Newton-Raphson" width="200"/>
+</p>
+
+	Y el tiempo de 33.032116 semanas se llegará al tope de los Q30 
+
 # Problema 2: Biseccion- Newton Raphson
 ## Metodología
 El método de Newton Raphson es un procedimiento algorítmico que permite hallar raíces de funciones, conociendo un valor numérico cercano a la raíz. Es metódo abierto e iterativo, muy útil para el cálculo de raíces cuadradas y de mayor grado, aunque para algunos casos el método presenta inconvenientes, por ejemplo si existen raíces múltiples, en este caso se tendría que aplicar diferentes soluciones para así lograr encontrar la raíz sin abandonar el método.  
@@ -107,14 +135,14 @@ Teniendo ya esto pues y siguiendo los pasos del Pseudocódigo junto con un boset
 
 ## Abstracción del problema   
 La solución a este problema se divide en tres partes importantes y que a la vez hicieron agilizar la programación del código, es de destacar que para este problema se tuvieron que realizar procesos manuales como es el caso de hallar la derivada de la función, pero seguidamente el problema se comprendío de la siguiente manera.
-# void main
+### void main
 En el void main recordemos que la función main es el punto de inicio del programa, en el cual en nuestro programa se leen las variables y se obtiene la información necesaria. 
 También hay una parte en la que se en la que se se guarda información en dos punteros dados, seguidamente se aplican dos condiciones en las cuales se imprime el resultado del problema.
-# void NewtonRaphson
+### void NewtonRaphson
 Esta función ejecuta la ecuación de NewtonRaphson hasta que se cumplan un n número de iteraciones. 
 Lo curioso de está función es que se divide en dos partes, ya que se al principio de debe de generar la primera iteración y luego se hacía el resto.
 Está función se encarga de guardar valores de puntero en cada iteración.
-# float f y df 
+### float f y df 
 Estás funciones valuan el valor de x en cada función matemática dada, ya sea en la función f(x) o su derivada.
 ## Pseudocódigo 
 Paso 1: Definir i=1  
