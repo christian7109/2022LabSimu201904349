@@ -10,6 +10,7 @@ resumen:
 //librerias
 #include <stdio.h>
 #include <math.h>
+ #include <stdlib.h>
 //declaramos las variables globales y les agregamos los datos de las semanas y el precio de combustible
 float x[]={1,2,3,4,5,6,7,8,9,10}, y[]={20.20,20.90,20.60,21.30,21.75,22.05,23.62,22.95,23.80,24.00};
 //medimos el tamaño del vector por medio del tamaño de los bytes que ocupa cada elemento
@@ -49,6 +50,7 @@ int main(){
     //se da una instrucción o recomendación para generar una grafica, lamentablemente no se obtuvo información para enlazar gnuplot y c
     //se intento usar un puntero con fopen
     printf("Para obtener la grafica escriba en terminal gnuplot primerProblema.gp\n");
+    system("gnuplot primerProblema.gp");
     return 0;
 }
 //reliza la suma de los elementos de un vector ingresado
