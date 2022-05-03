@@ -42,13 +42,10 @@ int main(){
     r = (n*sumaMulti(x,y)-(suma(x)*suma(y)))/sqrt((n*sumaMulti(x,x)-(suma(x)*suma(x)))*(n*sumaMulti(y,y)-(suma(y)*suma(y))));
     //imprime la ecuacion lineal
     printf("y = %fx + %f\n",m,b);
-    //imprime coeificiente de determinacion el r cuadrado
-    printf("Coeficiente de determinacion: %f\n",r*r);
-
    //se plantea un problema el cual será resuelto seguidamente.
     printf("Asumiendo que el gobierno tiene un tope de 30 quetzales por galon, determinemos en cuanto tiempo se llegara a ese tope si el precio mantiene este comportamiento. \n");
     tiempo=m*30+b;
-    printf("El tiempo de tope será en: %f \n", tiempo); 
+    printf("El tiempo de tope será en la semana: %f \n", tiempo); 
     //se da una instrucción o recomendación para generar una grafica, lamentablemente no se obtuvo información para enlazar gnuplot y c
     //se intento usar un puntero con fopen
     printf("Para obtener la grafica escriba en terminal gnuplot primerProblema.gp\n");
