@@ -1,6 +1,59 @@
 ### Número de carnet: 201904349
 # Problema 1: Precio del Combustible
 ## Metodología
+Del estudio estudio del comportamiento de los precios del combustible tipo regular, asumiendo que
+estos tiene un comportamiento lineal y en base a la tabla de datos:
+<table class="demo" align="center">
+	<thead>
+	<tr>
+		<th>Semana</th>
+		<th>precio (Q por galón)</th>
+	</tr>
+	<tr>
+		<td>&nbsp;1</td>
+		<td>&nbsp;20.20</td>
+	</tr>
+	<tr>
+		<td>&nbsp;2<br></td>
+		<td>20.90&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;3</td>
+		<td>&nbsp;20.60</td>
+	</tr>
+	<tr>
+		<td>4&nbsp;</td>
+		<td>&nbsp;21.30</td>
+	</tr>
+	<tr>
+		<td>5&nbsp;</td>
+		<td>&nbsp;21.75</td>
+	</tr>
+	<tr>
+		<td>6</td>
+		<td>&nbsp;22.05</td>
+	</tr>
+	<tr>
+		<td>7</td>
+		<td>&nbsp;23.62</td>
+	</tr>
+	<tr>
+		<td>8</td>
+		<td>&nbsp;22.95</td>
+	</tr>
+	<tr>
+		<td>9</td>
+		<td>&nbsp;23.80</td>
+	</tr>
+	<tr>
+		<td>10</td>
+		<td>&nbsp;24.00</td>
+	</tr>	</thead>
+</table>
+Por lo cual se necesito de:
+# Minimos cuadrados	
+Es un procedimiento de análisis numérico en la que, dados un conjunto de datos pares ordenados y familia de funciones, se intenta determinar la función continua que mejor se aproxime a los datos, línea de regresión o la línea de mejor ajuste.
+En nuestro caso presentamos la recta 'y=mx+b' 
 ## Abstracción del problema
 ## Pseudocódigo 
 Paso 1:
