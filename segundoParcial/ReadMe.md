@@ -1,5 +1,5 @@
-# Número de carnet: 201904349
-### Problema 1: Precio del Combustible
+### Número de carnet: 201904349
+# Problema 1: Precio del Combustible
 ## Metodología
 ## Abstracción del problema
 ## Pseudocódigo 
@@ -12,7 +12,7 @@ Paso 6:
 Paso 7:  
 Paso 8: 
 ## Respuesta
-### Problema 2: Biseccion- Newton Raphson
+# Problema 2: Biseccion- Newton Raphson
 ## Metodología
 ## Abstracción del problema
 ## Pseudocódigo 
