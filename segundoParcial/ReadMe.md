@@ -14,6 +14,16 @@ Paso 8:
 ## Respuesta
 # Problema 2: Biseccion- Newton Raphson
 ## Metodología
+El método de Newton Raphson es un procedimiento algorítmico que permite hallar raíces de funciones, conociendo un valor numérico cercano a la raíz. Es metódo abierto e iterativo, muy útil para el cálculo de raíces cuadradas y de mayor grado, aunque para algunos casos el método presenta inconvenientes, por ejemplo si existen raíces múltiples, en este caso se tendría que aplicar diferentes soluciones para así lograr encontrar la raíz sin abandonar el método.  
+Para nuestro caso usamos la siguiente ecuación:
+$$ x_{i+1}=x_{i}-\frac{f(x_{i})}{f'(x_{i})} $$
+\begin{align*}
+ x_{i+1}=x_{i}-\frac{f(x_{i})}{f'(x_{i})}
+\end{align*}
+
+ecuaion 
+derivada 
+entradas y salidas 
 ## Abstracción del problema
 ## Pseudocódigo 
 Paso 1: Definir i=1  
