@@ -1,6 +1,20 @@
 # Número de carnet: 201904349
 ### Problema 1: Precio del Combustible
+## Metodología
+## Abstracción del problema
+## Pseudocódigo 
+Paso 1:
+Paso 2:
+Paso 3: 
+Paso 4:      
+Paso 5:
+Paso 6:  
+Paso 7:  
+Paso 8: 
+## Respuesta
 ### Problema 2: Biseccion- Newton Raphson
+## Metodología
+## Abstracción del problema
 ## Pseudocódigo 
 Paso 1: Definir i=1  
 Paso 2: Leer y obtener el valor de x_inicial, la toleracia y las iteraciones.   
@@ -12,4 +26,4 @@ Paso 5: Si xi=|x-x_inicial|< tolerancia, entonces
 Paso 6: Si xi=|x-x_inicial|> tolerancia entonces aumenta i=i+1   
 Paso 7: Sustituimos x_inicial = x y regresaría al paso 4   
 Paso 8: En caso no encuentre la solución o raíz entonces saldrá un mensaje en donde se advierte el fracaso. 
-
+## Respuesta
