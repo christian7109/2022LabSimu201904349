@@ -1,5 +1,6 @@
 # Problemas en C 
 ## Problema 1 
+    compilar:     gcc -o problema1.out problema1.c
  <p align="center">
 <img src="https://github.com/christian7109/2022LabSimu201904349/blob/main/problemasPrograC/Imagenes/p1.PNG" width="700"/>
 </p>
