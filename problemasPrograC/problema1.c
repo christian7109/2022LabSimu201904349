@@ -30,10 +30,10 @@ while (i<3)  //declaramos un ciclo el cual inicia desde i=0 y termina hasta la t
 }
 if (n==0)           //ahora bien mientras n sea 0 significa que no se encontraron positivos, por lo tanto saldra un mensaje.
 {
-        puts(" No hay positivos");
+        puts("Los valores ingresados eran negativos");
 }else
 {
-    printf("La media es: %f", med/n); //
+    printf("La media es: %0.2f \n", med/n); //
 }
 return 0;
 }
