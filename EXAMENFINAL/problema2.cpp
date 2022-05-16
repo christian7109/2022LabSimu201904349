@@ -23,7 +23,9 @@ class Cohete
             TSFC=B;   
         }
 };
+void Unico(){
 
+};
 int main() {
     Cohete cohete1(3E7, 3.248E-4, 61.27, 201.06, 1.1E5, 1.5E6);
     Cohete cohete2(2.7E7,2.248E-4, 61.27,201.06,1.1E5,1.5E6);
